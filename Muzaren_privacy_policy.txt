@@ -1,0 +1,395 @@
+# MuzaRen Privacy Policy
+
+
+
+---
+
+## 1. Introduction
+
+Welcome to MuzaRen ("we", "our", or "us"). MuzaRen is a rental marketplace mobile application that connects people who want to rent items with people who have items available for rent. We are committed to protecting your personal information and your right to privacy.
+
+This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application MuzaRen (the "App"). Please read this policy carefully. If you disagree with its terms, please discontinue use of the App.
+
+We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the "Last updated" date of this Privacy Policy. You are encouraged to periodically review this Privacy Policy to stay informed of updates.
+
+---
+
+## 2. Information We Collect
+
+We collect information that you provide directly to us, information collected automatically when you use the App, and information from third-party sources.
+
+### 2.1 Information You Provide to Us
+
+**Account Registration:**
+- Full name
+- Email address
+- Phone number (optional)
+- Password (stored in encrypted form — we never store plain-text passwords)
+- Profile photo (optional)
+
+**Identity Verification:**
+- Government-issued ID documents (Aadhaar card, passport, national ID)
+- These documents are used solely for identity verification purposes and are stored securely with restricted access
+
+**Listings:**
+- Item title and description
+- Photographs of items (up to 5 images per listing)
+- Rental price
+- Item location (city and address)
+- Availability dates
+
+**Bookings:**
+- Rental dates you request
+- Messages sent to item owners
+
+**Reviews:**
+- Star ratings
+- Written comments about rental experiences
+
+**Support:**
+- Messages and attachments you send to our support team
+- Support ticket subject and description
+
+**Communications:**
+- Messages exchanged with other users via the in-app chat system
+
+### 2.2 Information Collected Automatically
+
+**Location Information:**
+- Device GPS coordinates (when you grant location permission)
+- Country and city derived from GPS coordinates
+- IP-based approximate location (when GPS is unavailable or denied)
+- We use location to show you relevant nearby listings and automatically set your local currency
+
+**Device Information:**
+- Device model and operating system
+- Unique device identifiers
+- Mobile network information
+- App version
+
+**Usage Information:**
+- Features you use within the App
+- Listings you view, search queries you make
+- Time and duration of App usage
+- Error logs and crash reports
+
+**Push Notification Tokens:**
+- Firebase Cloud Messaging (FCM) tokens used to send you push notifications about bookings, messages, and updates
+
+### 2.3 Information from Third Parties
+
+**Google OAuth:**
+- If you choose to register or log in with Google, we receive your name, email address, and profile picture from Google in accordance with your Google account privacy settings
+
+---
+
+## 3. How We Use Your Information
+
+We use the information we collect to:
+
+**Provide and operate the App:**
+- Create and manage your account
+- Enable you to post items for rent and make rental bookings
+- Facilitate communication between renters and owners via in-app chat
+- Process and manage booking requests and confirmations
+- Display listings relevant to your location
+
+**Verify identity:**
+- Review identity documents submitted for verification
+- Grant verified status to users who pass verification
+- Restrict high-value listings to verified users only
+
+**Personalize your experience:**
+- Automatically detect your country and display prices in your local currency
+- Show listings near your location first
+- Remember your preferences and settings
+
+**Send notifications:**
+- Push notifications for booking requests, acceptances, cancellations, and completions
+- Notifications for new chat messages
+- Verification status updates
+- App updates and important announcements
+
+**Ensure safety and security:**
+- Detect and prevent fraud, abuse, and unauthorized access
+- Investigate reports of inappropriate listings or user behaviour
+- Enforce our Terms of Service
+- Protect the rights and safety of our users
+
+**Improve the App:**
+- Analyse usage patterns to improve features
+- Fix bugs and technical issues
+- Develop new features based on user behaviour
+
+**Customer support:**
+- Respond to your support tickets and inquiries
+- Resolve disputes between renters and owners
+
+**Legal compliance:**
+- Comply with applicable laws and regulations
+- Respond to lawful requests from public authorities
+
+---
+
+## 4. How We Share Your Information
+
+We do not sell, trade, or rent your personal information to third parties for marketing purposes. We share information only in the following circumstances:
+
+### 4.1 With Other Users
+
+When you use the App as a renter or owner, certain information is visible to other users:
+
+**Public profile information:**
+- Your display name
+- Profile photo
+- Verified status badge
+- Average star rating and number of reviews
+- Member since date
+- Active listings
+
+**Information shared in transactions:**
+- Your name and profile photo are visible to the other party in a booking
+- Messages you send via in-app chat are visible to the recipient
+- Reviews you write are publicly visible on listings and profiles
+
+**We never share with other users:**
+- Your email address
+- Your phone number
+- Your government ID documents
+- Your exact device location
+- Your password or security credentials
+
+### 4.2 With Service Providers
+
+We share information with third-party service providers who assist us in operating the App:
+
+| Service Provider | Purpose | Data Shared |
+|-----------------|---------|-------------|
+| **Neon** (PostgreSQL) | Database hosting | All user and app data |
+| **Cloudinary** | Image storage and delivery | Profile photos, listing images, verification documents |
+| **Upstash** (Redis) | Caching and rate limiting | Session tokens, rate limit counters |
+| **Firebase (Google)** | Push notifications | FCM device tokens |
+| **ip-api.com** | IP-based location detection | IP address (when GPS unavailable) |
+
+All service providers are contractually obligated to use your information only for the purposes we specify and to protect it in accordance with applicable privacy laws.
+
+### 4.3 For Legal Reasons
+
+We may disclose your information if we believe disclosure is necessary to:
+- Comply with applicable law, regulation, or legal process
+- Protect the rights, property, or safety of MuzaRen, our users, or the public
+- Detect, prevent, or address fraud, security, or technical issues
+- Respond to a government request or court order
+
+### 4.4 Business Transfers
+
+If MuzaRen is involved in a merger, acquisition, or sale of all or a portion of its assets, your information may be transferred as part of that transaction. We will notify you via email and/or a prominent notice in the App before your information becomes subject to a different privacy policy.
+
+---
+
+## 5. Data Storage and Security
+
+### 5.1 Where Your Data is Stored
+
+Your data is stored on secure servers hosted by our service providers:
+- **Database:** Neon (serverless PostgreSQL) — hosted on secure cloud infrastructure
+- **Images:** Cloudinary CDN — globally distributed content delivery network
+- **Cache:** Upstash (serverless Redis) — encrypted at rest and in transit
+
+### 5.2 Security Measures
+
+We implement industry-standard security measures to protect your information:
+
+- **Encryption in transit:** All data transmitted between the App and our servers uses HTTPS/TLS encryption
+- **Encryption at rest:** Sensitive data including passwords and tokens are encrypted in our database
+- **Password hashing:** Passwords are hashed using bcrypt with strong salt rounds — we cannot retrieve your plain-text password
+- **JWT tokens:** Authentication uses short-lived JSON Web Tokens (15-minute expiry) with secure refresh token rotation
+- **Secure storage:** Your access tokens are stored in your device's secure enclave (iOS Keychain / Android Keystore) via flutter_secure_storage
+- **Rate limiting:** We implement rate limiting on all API endpoints to prevent abuse
+- **Access controls:** Employee access to user data is strictly limited on a need-to-know basis
+
+### 5.3 Verification Documents
+
+Government-issued identity documents submitted for verification are treated with the highest level of security:
+- Stored in a private, access-restricted folder on Cloudinary
+- Not publicly accessible via any URL
+- Only accessible by authorised MuzaRen administrators during the verification review process
+- Never shared with other users under any circumstances
+
+### 5.4 Security Limitations
+
+Despite our security measures, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security of your information. If you believe your account has been compromised, please contact us immediately at [INSERT SUPPORT EMAIL].
+
+---
+
+## 6. Your Rights and Choices
+
+Depending on your location, you may have the following rights regarding your personal information:
+
+### 6.1 Access and Portability
+You have the right to request a copy of the personal information we hold about you. You can request this by contacting us at [INSERT SUPPORT EMAIL]. We will respond within 30 days.
+
+### 6.2 Correction
+You can update your profile information (name, phone number, city, profile photo) directly within the App under Settings → Personal Information. For other corrections, contact our support team.
+
+### 6.3 Deletion
+You can request deletion of your account and associated personal data by:
+- Going to Settings → Data & Privacy → Delete Account in the App, or
+- Contacting us at [INSERT SUPPORT EMAIL]
+
+Upon account deletion, we will delete or anonymise your personal data within 30 days, except where we are required to retain it for legal, safety, or fraud prevention purposes. Note that:
+- Reviews you have written may remain visible in anonymised form
+- Transaction records may be retained for legal and accounting purposes
+- Backup copies may persist for up to 90 days before permanent deletion
+
+### 6.4 Opt-Out of Notifications
+You can manage your notification preferences at any time:
+- **In the App:** Settings → Notifications
+- **Device settings:** Your device's notification settings for MuzaRen
+- You cannot opt out of critical transactional notifications (booking confirmations, security alerts) while your account is active
+
+### 6.5 Location Permissions
+You can revoke location permission at any time through your device settings. If you revoke location permission, we will use IP-based location as a fallback. You can always set your location manually within the App.
+
+### 6.6 Account Deactivation
+If you want to temporarily stop using the App without deleting your account, you can pause all your listings from the My Listings screen. To fully deactivate your account, contact our support team.
+
+---
+
+## 7. Location Data
+
+### 7.1 How We Use Location
+
+We use your location to:
+- Show you listings near your current location
+- Automatically detect your country and set the appropriate currency
+- Help listing owners describe item pickup locations
+
+### 7.2 Location Permission
+
+The App requests location permission when you first log in. You can:
+- **Allow:** We use GPS coordinates for precise location
+- **Deny:** We use your IP address to approximate your country (less precise)
+- **Change anytime:** Go to your device Settings → MuzaRen → Location
+
+### 7.3 Location Sharing with Other Users
+
+Your exact GPS coordinates are **never** shared with other users. Only the city/area name you set is visible on your listings.
+
+---
+
+## 8. Children's Privacy
+
+MuzaRen is not intended for use by anyone under the age of 18. We do not knowingly collect personal information from children under 18. If we become aware that a child under 18 has provided us with personal information, we will take steps to delete such information and terminate the account. If you believe a child under 18 has provided us with personal information, please contact us at [INSERT SUPPORT EMAIL].
+
+---
+
+## 9. Third-Party Services and Links
+
+### 9.1 Google Sign-In
+If you use Google Sign-In, your use of Google's authentication service is governed by Google's Privacy Policy (https://policies.google.com/privacy). We only receive the information Google provides to us based on your Google account permissions.
+
+### 9.2 Google Maps
+The App uses Google Maps for location picking when posting listings. Your use of Google Maps features within the App is governed by Google's Privacy Policy.
+
+### 9.3 Firebase (Google)
+We use Firebase Cloud Messaging for push notifications. Firebase's data handling is governed by Google's Privacy Policy.
+
+### 9.4 External Links
+The App may contain links to external websites (such as our Terms of Service or Privacy Policy page). We are not responsible for the privacy practices of external sites and encourage you to review their privacy policies.
+
+---
+
+## 10. Data Retention
+
+We retain your personal information for as long as your account is active or as needed to provide you with the App's services. Specifically:
+
+| Data Type | Retention Period |
+|-----------|-----------------|
+| Account information | Until account deletion + 30 days |
+| Listing data | Until account deletion or listing deletion |
+| Booking records | 7 years (legal/accounting requirements) |
+| Chat messages | Until conversation deletion or account deletion |
+| Reviews | Until review or account deletion |
+| Verification documents | Until verification is complete + 90 days |
+| Security logs | 1 year |
+| Push notification tokens | Until logout or account deletion |
+| Backup copies | Up to 90 days after deletion |
+
+---
+
+## 11. International Data Transfers
+
+MuzaRen operates globally. Your information may be transferred to and processed in countries other than your country of residence, including countries that may not have the same data protection laws as your country.
+
+When we transfer data internationally, we ensure appropriate safeguards are in place, including:
+- Using service providers who comply with applicable data protection laws
+- Ensuring service providers have adequate data protection certifications
+
+By using the App, you consent to the transfer of your information to these countries.
+
+---
+
+## 12. Cookies and Similar Technologies
+
+The App itself does not use browser cookies. However, our backend services may use similar tracking technologies including:
+- **Session tokens:** Stored securely on your device to keep you logged in
+- **Analytics identifiers:** Anonymous identifiers used to understand App usage
+
+---
+
+## 13. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. We will notify you of any significant changes by:
+- Sending a push notification to your device
+- Displaying a prominent notice within the App
+- Updating the "Last updated" date at the top of this policy
+
+Your continued use of the App after any changes indicates your acceptance of the updated Privacy Policy. If you do not agree to the updated policy, you must stop using the App and may request account deletion.
+
+---
+
+
+## 14. Region-Specific Provisions
+
+### 14.1 European Economic Area (EEA) and United Kingdom
+
+If you are located in the EEA or UK, the following additional provisions apply under the General Data Protection Regulation (GDPR) and UK GDPR:
+
+**Legal basis for processing:**
+- **Contract performance:** Processing necessary to provide the App's services (account creation, bookings, payments)
+- **Legitimate interests:** Fraud prevention, security, improving the App
+- **Legal obligation:** Complying with applicable laws
+- **Consent:** Location access, marketing communications (where applicable)
+
+**Your additional rights:**
+- Right to object to processing based on legitimate interests
+- Right to restrict processing
+- Right to lodge a complaint with your local data protection authority
+
+**Data Protection Officer:** [INSERT DPO CONTACT IF APPLICABLE]
+
+### 14.2 California (CCPA/CPRA)
+
+If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):
+- Right to know what personal information we collect, use, disclose, and sell
+- Right to delete your personal information
+- Right to opt-out of the sale of personal information (note: we do not sell personal information)
+- Right to non-discrimination for exercising your rights
+
+To exercise your California privacy rights, contact us at [INSERT PRIVACY EMAIL].
+
+### 14.3 India (DPDP Act)
+
+If you are located in India, we comply with the Digital Personal Data Protection Act, 2023. You have the right to:
+- Access information about your personal data we process
+- Correction and erasure of your personal data
+- Grievance redressal
+
+For Indian users, identity verification uses Aadhaar-based or equivalent KYC processes as required. Verification documents are processed in compliance with applicable Indian data protection laws.
+
+---
+
+*This Privacy Policy was last reviewed and updated on [INSERT DATE].*
+
+*MuzaRen — Rent Anything. Anywhere.*
